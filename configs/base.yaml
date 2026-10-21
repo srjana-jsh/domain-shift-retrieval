@@ -1,0 +1,10 @@
+dataset:
+  name: beir/scifact/test
+
+retrieval:
+  top_k: 100
+
+dense:
+  model_name: sentence-transformers/msmarco-MiniLM-L6-cos-v5
+  batch_size: 64
+  device: null
